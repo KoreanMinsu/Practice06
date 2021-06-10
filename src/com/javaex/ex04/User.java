@@ -14,30 +14,33 @@ public class User {
 		this.name = name;
 	}
 
-	private String getId() {
+	public String getId() {
 		return id;
 	}
 
-	private void setId(String id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	private String getPassword() {
+	public String getPassword() {
 		return password;
 	}
 
-	private void setPassword(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 
-	private String getName() {
+	public String getName() {
 		return name;
 	}
 
-	private void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	
+	
+	
+
 	public void showInfo() {
 	}
 	

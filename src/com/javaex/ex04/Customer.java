@@ -12,11 +12,11 @@ public class Customer extends User{
 		this.point = point;
 	}
 
-	private int getPoint() {
+	public int getPoint() {
 		return point;
 	}
 
-	private void setPoint(int point) {
+	public void setPoint(int point) {
 		this.point = point;
 	}
 	

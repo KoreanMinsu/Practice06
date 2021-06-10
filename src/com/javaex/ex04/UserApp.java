@@ -13,7 +13,7 @@ public class UserApp {
 		for(int i=0; i<uArray.length; i++) {
 			uArray[i].showInfo();
 		}
-
+		System.out.println(uArray[2].getName() + "의 월급은 " + ((Employee)uArray[2]).getSalary() + "원 입니다.");
 	}
 
 }
